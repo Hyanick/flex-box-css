@@ -1,0 +1,37 @@
+/* Votre code CSS pour la grille Flexbox */
+
+/* .flex-grid{
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.row{
+    display: flex;
+    flex-basis: 100%;
+}
+
+.item {
+  /*box-sizing: border-box;    /*permet de faire passer les padding en interne */
+}
+
+.item-1{
+    flex-basis: 8.33%;
+}
+
+.item-2{
+    flex-basis: 16.66%;
+}
+.item-3{
+    flex-basis: 25%;
+}
+
+.item-6{
+    flex-basis: 50%;
+}
+.item-9{
+    flex-basis: 75%;
+}
+
+.item-11{
+    flex-basis: 96.66%;
+}

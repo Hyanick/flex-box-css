@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+   /* flex-direction: column-reverse; /*Définit l'Axe principale*/
+   /*justify-content: space-evenly; /*Justify-content est lié à l'axe principal*/
+  /* flex-wrap: wrap-reverse; /*permet de gérer les élements qui dépassent du container principal*/
+  /* align-items: flex-start ; /*Permet de gérer l'alignement sur l'Axe secondaire des différents items*/
+  /* width: 500px;
+  height: 500px; */
+  /*flex-flow: row wrap-reverse; /*Propriété racourcie qui permet de combinner flex-wrap et flex-direction*/
+  /* border: 10px solid red; */
+  /*Centrer les éléments*/
+  /* height: 500px;
+   align-items: center;
+  justify-content: center;  align-items et justify-content combinés permettent de centrer des élements */
+   
+}
+
+.item{
+    /* flex-grow: 1; */
+    /* width: 100px; */
+    /* flex-basis: 400px; */
+    /*flex-shrink: 0; /*Permet de repartir l'espace négative de manière proportionnelle*/
+    /*flex: 0 0 100%; /*proprité raccourcie qui permet de combiner flex-grow flex-shrink flex-basis */
+    /* margin: auto; */
+}
+
+
+.item:nth-child(4) { /*Permet de gérer un élement en particulier*/
+    /* font-size: 100px;
+    color: red */
+
+    
+}
+
+.item:nth-child(1){
+    /* order: 1; */
+   /* flex-grow: 1; /*Permet de gérer l'espacement des items (enfants)*/
+   /*flex-basis: 200px; /*Hierachie: min-width & max-widh => flex-basis => width => contenu*/
+   
+}
+.item:nth-child(2){
+    /* flex-grow: 2; */
+    /*align-self: flex-end; /*Permet de gérer l'alignement sur l'axe secondaire de l'item sélectionné*/
+    
+}
+.item:nth-child(3){
+    /* flex-grow: 2; */
+    
+}
+.item:nth-child(4){
+    
+}
+

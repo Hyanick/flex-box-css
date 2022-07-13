@@ -1,0 +1,78 @@
+/* VOTRE CSS ICI */
+
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header {
+    flex-basis: 100%;
+}
+
+.content {
+    flex-basis: 60%;
+}
+
+.sidebar {
+    flex-basis: 20%;
+}
+
+.footer{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+}
+@media screen  and (max-width: 500px) {
+    .content{
+        flex-basis: 100%;
+    }
+    .sidebar {
+        order: 1;
+        flex-basis: 50%;
+    }
+
+    .secondary{
+        background-color: red;
+    }
+
+    .footer{
+        order: 2;
+    }
+    
+}
+
+
+/* .container {
+    display: flex;
+    
+}
+
+.sidebar:nth-child(1) {
+    flex-basis: 20%;
+}
+
+.secondary {
+    flex-basis: 20%;
+}
+
+.footer {
+    text-align: center;
+}
+
+@media screen and (max-width:500px) {
+    .content {
+        flex-basis: 100%; 
+        background-color: red;  
+    }
+
+    .sidebar:nth-child(1) {
+        display: block;
+    }
+    
+    .secondary {
+        display: block;
+    }
+     */
+
+}
